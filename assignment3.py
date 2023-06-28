@@ -23,6 +23,7 @@ def print_contact():
 
 # Function to calculate each order. It takes a parameter which is an array
 def calculate_purchase(params):
+    # method to check the length of the parameter passed
     check_num_of_item = len(params)
     total = 0
 
