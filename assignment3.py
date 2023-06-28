@@ -61,6 +61,8 @@ def calculate_purchase(params):
     # This is printing the contact after the calculations has been completed
     print_contact()
 
+
+# Calling the function and passing different parameters
 item1 = ['ITEM2']
 calc1_price = calculate_purchase(item1)
 
